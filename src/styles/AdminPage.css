@@ -1,0 +1,43 @@
+.adminWrapper p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.logout {
+  position: absolute;
+  right: 2%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  width: 6vw;
+  height: 6vh;
+  border: 2px solid black;
+  font-size: 1rem;
+  background-color: grey;
+}
+
+.promolabel {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+}
+
+.promolabel p {
+  padding-bottom: 10px;
+}
+
+.promolabel input {
+  font-size: 24px;
+}
+
+.promolabel select {
+  font-size: 24px;
+}
+
+.promolabel button {
+  margin-top: 20px;
+  font-size: 24px;
+  background-color: #aaa;
+  border: 3px solid black;
+}

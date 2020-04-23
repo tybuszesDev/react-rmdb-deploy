@@ -1,0 +1,82 @@
+nav.main {
+  padding: 10px 30px 10px 30px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.main ul {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: 1;
+}
+
+nav.main a {
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 26px;
+  min-width: 150px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+  line-height: 40px;
+  border-bottom: 5px solid black;
+}
+
+nav.main a:hover {
+  font-size: 30px;
+}
+
+nav.main a.active {
+  font-size: 30px;
+  padding-left: 5px;
+  border-bottom: 3px solid;
+  margin-left: -10px;
+  letter-spacing: 1px;
+  border-bottom-color: white;
+}
+
+/* nav.main li:nth-child(1) a.active {
+  border-left-color: green;
+}
+nav.main li:nth-child(2) a.active {
+  border-left-color: red;
+}
+nav.main li:nth-child(3) a.active {
+  border-left-color: royalblue;
+}
+nav.main li:nth-child(4) a.active {
+  border-left-color: salmon;
+} */
+
+@media (max-width: 850px) {
+  .main ul {
+    flex-direction: column;
+  }
+
+  .main a {
+    font-size: 20px;
+  }
+
+  .main a:active {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .main a {
+    font-size: 22px;
+  }
+
+  .main a:active {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 1000px) {
+  nav.main {
+    padding: 10px 10px 10px 10px;
+  }
+}

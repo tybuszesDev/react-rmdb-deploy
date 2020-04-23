@@ -1,0 +1,21 @@
+footer span {
+  color: red;
+  margin: 0 10px;
+}
+
+footer p {
+  padding-left: 10vw;
+  font-size: 14px;
+}
+
+.footerr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adminpanel {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+  padding-right: 5vw;
+}

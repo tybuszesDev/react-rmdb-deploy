@@ -1,0 +1,10 @@
+.home {
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  color: #111;
+}
+.author {
+  text-align: right;
+  color: Black;
+  font-weight: 700;
+}

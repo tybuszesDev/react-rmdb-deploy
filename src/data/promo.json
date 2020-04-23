@@ -1,0 +1,34 @@
+[
+  {
+    "id": "0",
+    "name": "Plytka xyza",
+    "price": "100zł",
+    "unit": "m²",
+    "amount": "100",
+    "pic": "../images/simpleImage.png"
+  },
+  {
+    "id": "1",
+    "name": "Stojak zac",
+    "price": "10zł",
+    "unit": "m²",
+    "amount": "100",
+    "pic": "../images/simpleImage"
+  },
+  {
+    "id": "2",
+    "name": "Pfotel polo",
+    "price": "22zł",
+    "unit": "m²",
+    "amount": "100",
+    "pic": "../images/simpleImage"
+  },
+  {
+    "id": "3",
+    "name": "kitek miau",
+    "price": "40zł",
+    "unit": "m²",
+    "amount": "100",
+    "pic": ""
+  }
+]

@@ -1,0 +1,36 @@
+.promoWrapper {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.promoProduct {
+  display: flex;
+  background-color: #111;
+  color: white;
+  justify-content: space-around;
+  border: 5px solid goldenrod;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+.names {
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  padding-right: 5vw;
+}
+
+@media (max-width: 850px) {
+  .promoProduct {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1100px) {
+  .names {
+    opacity: 0;
+  }
+}

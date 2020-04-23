@@ -1,0 +1,36 @@
+.loginform {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 30vh;
+  border: 3px solid red;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.loginform button {
+  width: 50%;
+  flex-basis: 15%;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  font-size: 24px;
+}
+
+.loginform :nth-child(1) {
+  font-size: 24px;
+  text-align: center;
+}
+
+.loginform :nth-child(2) {
+  text-align: center;
+  font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+  .loginform {
+    width: 60vw;
+  }
+}
