@@ -23,14 +23,28 @@
   padding-right: 5vw;
 }
 
+.promoProduct img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
 @media (max-width: 850px) {
   .promoProduct {
     flex-direction: column;
+  }
+
+  .promoProduct img {
+    max-width: 260px;
+    max-height: 260px;
   }
 }
 
 @media (max-width: 1100px) {
   .names {
     opacity: 0;
+  }
+
+  .promoProduct {
+    font-size: 24px;
   }
 }

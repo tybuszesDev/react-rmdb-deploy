@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import simpleImage from "../images/simpleImage.png";
 import "../styles/PromoPage.css";
 
 let promo = require("../data/promo.json");
@@ -17,7 +16,7 @@ class PromoPage extends Component {
           <div>
             {product.amount} {product.unit}
           </div>
-          <img src={simpleImage} alt="Pic of product" />
+          <img src={product.pic} alt="Pic of product" />
         </div>
       </div>
     ));
