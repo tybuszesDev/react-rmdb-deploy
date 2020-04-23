@@ -22,9 +22,9 @@ header img {
   font-family: arc;
   font-size: 40px;
   color: white;
-  background: -webkit-linear-gradient(-90deg, red, red, yellow);
+  /* background: -webkit-linear-gradient(-90deg, red, red, yellow);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   line-height: 8vh;
   padding-left: 60px;
 }
